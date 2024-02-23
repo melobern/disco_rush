@@ -1,3 +1,17 @@
 body {
     background-color: #30b9e7;
 }
+
+h1 {
+    color: #ffa119;
+}
+
+.skills .progress-bar {
+    background-color: #ffa119 !important;
+}
+
+.garfield-container {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #30b9e7;
+}
