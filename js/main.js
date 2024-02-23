@@ -260,3 +260,15 @@
   new PureCounter();
 
 })()
+
+function generatecolor() {
+  var red = Math.floor(Math.random()*0xFF);
+  var green = Math.floor(Math.random()*0xFF);
+  var blue = Math.floor(Math.random()*0xFF); 
+  return(`rgb(${red}, ${green}, ${blue})`);
+}
+
+
+  function applycolor() {
+      document.body.style.im=generatecolor();
+  }
