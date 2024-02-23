@@ -46,3 +46,10 @@ h1 {
     font-size: 2vh;
     margin: 30px;
 }
+body {
+    background-color: #30b9e7;
+}
+
+.bx {
+    font-size: 200px;
+  }
