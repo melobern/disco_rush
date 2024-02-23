@@ -1,9 +1,11 @@
 body {
-    background-color: #30b9e7;
+    background-color: #30b9e7 !important;
 }
 
 h1 {
-    color: #ffa119;
+    color: #ffa119 !important;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 1px 6px 6px #282828;
 }
 
 .skills .progress-bar {
@@ -14,4 +16,33 @@ h1 {
     padding: 50px;
     border-radius: 10px;
     background-color: #30b9e7;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jon {
+    height: 20vh;
+}
+
+.text_centered {
+    text-align: center;
+}
+
+#index_h {
+    font-size: 3vh;
+}
+
+#index_p {
+    font-size: 2vh;
+    margin: 30px;
 }
